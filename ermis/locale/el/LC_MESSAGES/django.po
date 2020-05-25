@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 16:27+0200\n"
+"POT-Creation-Date: 2020-05-19 17:29+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,8 +42,7 @@ msgstr ""
 msgid "Getting Started"
 msgstr ""
 
-#: ermis/templates/site_index.html:26 ermis/templates/site_index.html:30
-#: ermis/templates/site_index.html:74
+#: ermis/templates/site_index.html:26 ermis/templates/site_index.html:74
 msgid "at"
 msgstr "στη"
 
@@ -52,10 +51,14 @@ msgstr "στη"
 msgid "ERMIS-F Geoportal"
 msgstr "Γεωπύλη ERMIS-F"
 
+#: ermis/templates/site_index.html:30
+msgid "to the"
+msgstr "στη"
+
 #: ermis/templates/site_index.html:37 ermis/templates/site_index.html:41
 msgid ""
 "The Geoportal is an online platform for searching, viewing, downloading and "
-"editing spatial data related to food risks"
+"editing spatial data related to flood risks"
 msgstr ""
 "Η Γεωπύλη είναι μια διαδικτυακή πλατφόρμα αναζήτησης, προβολής, λήψης και "
 "επεξεργασίας χωρικών δεδομένων και χαρτών που σχετίζονται με τον πλημμυρικό "
@@ -94,6 +97,11 @@ msgstr ""
 msgid "Advanced Search"
 msgstr ""
 
+#: ermis/templates/static_maps/about.html:4
+msgid "About GeoNode"
+msgstr ""
+
+#: ermis/templates/static_maps/about.html:7
 #: ermis/templates/static_maps/crete.html:7
 #: ermis/templates/static_maps/crete22.html:7
 #: ermis/templates/static_maps/cyprus.html:7
@@ -104,14 +112,7 @@ msgstr ""
 msgid "Flood Maps"
 msgstr "Πλυμμηρικοί Χάρτες"
 
-#: ermis/templates/static_maps/crete.html:9
-#: ermis/templates/static_maps/crete22.html:9
-#: ermis/templates/static_maps/cyprus.html:9
-#: ermis/templates/static_maps/cyprus22.html:9
-#: ermis/templates/static_maps/vaigaio.html:9
-msgid "GIS Portal"
-msgstr ""
-
+#: ermis/templates/static_maps/about.html:10
 #: ermis/templates/static_maps/crete.html:10
 #: ermis/templates/static_maps/crete22.html:10
 #: ermis/templates/static_maps/cyprus.html:10
@@ -120,6 +121,7 @@ msgstr ""
 msgid "Knowledge Base"
 msgstr "Βάση Γνώσης"
 
+#: ermis/templates/static_maps/about.html:11
 #: ermis/templates/static_maps/crete.html:11
 #: ermis/templates/static_maps/crete22.html:11
 #: ermis/templates/static_maps/cyprus.html:11
@@ -128,19 +130,30 @@ msgstr "Βάση Γνώσης"
 msgid "Crowdsourcing"
 msgstr ""
 
+#: ermis/templates/static_maps/about.html:12
 #: ermis/templates/static_maps/crete.html:12
-#: ermis/templates/static_maps/crete22.html:12
-#: ermis/templates/static_maps/cyprus.html:12
-#: ermis/templates/static_maps/cyprus22.html:12
+#: ermis/templates/static_maps/cyprus.html:13
 #: ermis/templates/static_maps/vaigaio.html:12
+#, fuzzy
+#| msgid "ERMIS-F Geoportal"
+msgid "Geoportal"
+msgstr "Γεωπύλη ERMIS-F"
+
+#: ermis/templates/static_maps/about.html:15
+#: ermis/templates/static_maps/crete.html:13
+#: ermis/templates/static_maps/crete22.html:12
+#: ermis/templates/static_maps/cyprus.html:16
+#: ermis/templates/static_maps/cyprus22.html:12
+#: ermis/templates/static_maps/vaigaio.html:15
 msgid "Social Media"
 msgstr ""
 
-#: ermis/templates/static_maps/crete.html:13
+#: ermis/templates/static_maps/about.html:16
+#: ermis/templates/static_maps/crete.html:14
 #: ermis/templates/static_maps/crete22.html:13
-#: ermis/templates/static_maps/cyprus.html:13
+#: ermis/templates/static_maps/cyprus.html:17
 #: ermis/templates/static_maps/cyprus22.html:13
-#: ermis/templates/static_maps/vaigaio.html:13
+#: ermis/templates/static_maps/vaigaio.html:16
 #, fuzzy
 #| msgid "ERMIS-F Sub"
 msgid "ERMIS-F"
@@ -153,29 +166,55 @@ msgstr ""
 "περιβάλλον πληροφόρησης και υποστήριξης λήψης αποφάσεων που αφορούν τους "
 "περιβαλλοντικούς κινδύνους και ιδιαίτερα τον πλημμυρικό κίνδυνο."
 
-#: ermis/templates/static_maps/crete.html:19
-#: ermis/templates/static_maps/crete22.html:19
-#: ermis/templates/static_maps/cyprus.html:22
-#: ermis/templates/static_maps/cyprus22.html:22
-#: ermis/templates/static_maps/vaigaio.html:22
-msgid "Crete"
-msgstr ""
-
-#: ermis/templates/static_maps/crete.html:21
+#: ermis/templates/static_maps/about.html:22
+#: ermis/templates/static_maps/crete.html:22
 #: ermis/templates/static_maps/crete22.html:21
-#: ermis/templates/static_maps/cyprus.html:19
+#: ermis/templates/static_maps/cyprus.html:23
 #: ermis/templates/static_maps/cyprus22.html:19
-#: ermis/templates/static_maps/vaigaio.html:21
+#: ermis/templates/static_maps/vaigaio.html:24
 msgid "Cyprus"
 msgstr ""
 
-#: ermis/templates/static_maps/crete.html:23
+#: ermis/templates/static_maps/about.html:24
+#: ermis/templates/static_maps/crete.html:24
 #: ermis/templates/static_maps/crete22.html:23
-#: ermis/templates/static_maps/cyprus.html:21
+#: ermis/templates/static_maps/cyprus.html:25
 #: ermis/templates/static_maps/cyprus22.html:21
-#: ermis/templates/static_maps/vaigaio.html:19
+#: ermis/templates/static_maps/vaigaio.html:22
 msgid "North Aegean"
 msgstr ""
+
+#: ermis/templates/static_maps/about.html:25
+#: ermis/templates/static_maps/crete.html:20
+#: ermis/templates/static_maps/crete22.html:19
+#: ermis/templates/static_maps/cyprus.html:26
+#: ermis/templates/static_maps/cyprus22.html:22
+#: ermis/templates/static_maps/vaigaio.html:25
+msgid "Crete"
+msgstr ""
+
+#: ermis/templates/static_maps/about.html:36
+#, fuzzy
+#| msgid "Floods Maps"
+msgid "ERMIS-F Flood Maps"
+msgstr "Πλυμμηρικοί Χάρτες"
+
+#: ermis/templates/static_maps/crete22.html:9
+#: ermis/templates/static_maps/cyprus22.html:9
+msgid "GIS Portal"
+msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "The Geoportal is an online platform for searching, viewing, downloading "
+#~| "and editing spatial data related to flood risks"
+#~ msgid ""
+#~ "The Geoportal is an online platform for searching, viewing, downloading "
+#~ "and editing spatial data related to food risks"
+#~ msgstr ""
+#~ "Η Γεωπύλη είναι μια διαδικτυακή πλατφόρμα αναζήτησης, προβολής, λήψης και "
+#~ "επεξεργασίας χωρικών δεδομένων και χαρτών που σχετίζονται με τον "
+#~ "πλημμυρικό κίνδυνο"
 
 #~ msgid "Early Warning System"
 #~ msgstr "Σύστημα Έγκαιρης Προειδοποίησης"

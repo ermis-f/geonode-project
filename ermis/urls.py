@@ -20,7 +20,7 @@
 
 from django.conf.urls import url, include
 from django.views.generic import TemplateView
-
+from . import views
 from geonode.urls import urlpatterns
 import django_cas_ng.views
 
@@ -35,7 +35,9 @@ urlpatterns += [
 ]
 
 urlpatterns = [
-   url(r'^/?$',
-       TemplateView.as_view(template_name='site_index.html'),
-       name='home'),
+   #url(r'^/?$',
+   #    TemplateView.as_view(template_name='site_index.html'),
+   #    name='home'),
+   url(r'^/?$',views.g_home, name='g_home'),
+
  ] + urlpatterns

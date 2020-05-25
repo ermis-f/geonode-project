@@ -10,7 +10,7 @@
                                         <li><a href="https://kb.ermis-f.eu/" ><i class="icon-streamline-school-graduation"></i>{% trans "Knowledge Base" %}</a></li>
                                         <li><a href="https://cr.ermis-f.eu/" ><i class="icon-streamline-compatible-devices"></i>{% trans "Crowdsourcing" %}</a></li>
 
- <li><a href="https://geoportal.ermis-f.eu/" ><i class="icon-streamline-group-global"></i>{% trans "GIS Portal" %}</a></li>
+ <li><a href="https://geoportal.ermis-f.eu/" ><i class="icon-streamline-group-global"></i>{% trans "Geoportal" %}</a></li>
 
 
                                         <li><a href="https://sm.ermis-f.eu/" ><i class="icon-streamline-friends"></i>{% trans "Social Media" %}</a></li>
@@ -28,6 +28,11 @@
                  </li>    
 
  {% endblock %}
+
+{% block ermis_info_app_about_href %}
+https://geoportal.ermis-f.eu/static_maps/about.html
+{% endblock ermis_info_app_about_href %}
+
 
 {% block ermis_styles %}
 {{ block.super }}
